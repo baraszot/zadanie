@@ -107,9 +107,11 @@ Linia narysowana za pomocą `---`,
 ---
 
 za pomocą `* * *` 
+
 * * *
 
 i za pomocą `___`
+
 ___
 
 wyglądają tak samo.

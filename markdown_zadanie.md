@@ -60,7 +60,7 @@ Z nagłówków wygenerować można spis treści. Aby to zrobić, należy wpisać
 Format to:
 
 >`- [Podział tekstu](#podział-tekstu)`  
-`  - [Akapity, podziały wierszy](#akapity-podziały-wierszy)`  
+`- [Akapity, podziały wierszy](#akapity-podziały-wierszy)`  
 itd.
 
 (Jest to de facto połączenie tworzenia listy i zamieszczania odnośników, patrz [Listy nienumerowane](#listy-nienumerowane) i [Odsyłacze](#odsyłacze))
@@ -106,13 +106,13 @@ Linia narysowana za pomocą `---`,
 
 ---
 
-za pomocą `* * *` 
+i za pomocą `* * *` 
 
 * * *
 
-i za pomocą `___`
+i za pomocą `_ _ _`
 
-___
+_ _ _
 
 wyglądają tak samo.
 

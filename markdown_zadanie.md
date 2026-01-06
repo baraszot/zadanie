@@ -65,7 +65,7 @@ itd.
 
 (Jest to de facto połączenie tworzenia listy i zamieszczania odnośników, patrz [Listy nienumerowane](#listy-nienumerowane) i [Odsyłacze](#odsyłacze))
 
-Dla ułatwienia sobie życia warto skorzystać przy tym z dodatków, które wygenerują spis treści z nagłówków dostępnych w tekście np. Markdown All in One. W przypadku nagłówków, które mają zostać pominięte w spisie treści, za tekstem nagłówka dodaje się `<!-- omit in toc -->`.
+Dla ułatwienia sobie życia warto skorzystać przy tym z narzędzi, które wygenerują spis treści z nagłówków dostępnych w tekście np. dodatku Markdown All in One do edytora Visual Studio Code. W przypadku nagłówków, które mają zostać pominięte w spisie treści, za tekstem nagłówka dodaje się `<!-- omit in toc -->`.
 
 ### Tworzenie tabel
 
@@ -110,7 +110,7 @@ za pomocą `* * *`
 * * *
 
 i za pomocą `___`
-___ 
+___
 
 wyglądają tak samo.
 
@@ -130,17 +130,15 @@ Cytaty blokowe wprowadza się za pomocą znaku > umieszczanego na początku lini
 Cytaty blokowe można zagnieżdżać za pomocą dodatkowego znaku >.
 
 >Cytaty blokowe wprowadza się za pomocą znaku < umieszczanego na początku linii, w której ma znaleźć się cytat. Znak ten może znajdować się na początku każdego wiersza cytatu lub tylko na początku każdego akapitu.
->>Cytaty blokowe można zagnieżdżać za pomocą dodatkowego znaku <.
+>>Cytaty blokowe można zagnieżdżać za pomocą dodatkowego znaku >.
 
 ### Cytowanie kodu, znaczników itp.
 
 Za pomocą użycia znaku ` z obu stron możemy zaznaczyć elementy, które powinny wyświetlać się na stronie w formie tekstowej. Użycie trzech znaków z obu stron generuje osobny blok tekstu np. na przytaczany kod.
 
-` ```
-started_in = os.getcwd()
+` ```started_in = os.getcwd()
     download_content(terminology_url, terminology_languages)
-    os.chdir(started_in)
-``` `
+    os.chdir(started_in)``` `
 
 ```
 started_in = os.getcwd()
